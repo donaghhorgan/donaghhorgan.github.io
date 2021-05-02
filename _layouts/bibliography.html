@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+
+  <div class="post-line"></div>
+
+  {{ content }}
+
+  {% for category in site.data[page.bibliography] %}
+    {% assign year = category[0] %}
+    {% assign items = category[1] %}
+    <h1>{{ year }}</h1>
+    {% for item in items %}
+      <p>
+        <a href="{{ item.link }}">{{ item.title }}</a>
+        {% if item.author %}
+          <br>
+          <span style="font-size: 90%; color: #353535">{{ item.author }}</span>
+        {% endif %}
+        <br>
+        <span style="font-size: 90%; color: #353535">{{ item.publication }}</span>
+        <br>
+      </p>
+    {% endfor %}
+  {% endfor %}
+</div>
+
+{% if page.comments %}
+  {% include disqus_comments.html %}
+{% endif %}
+
+<div class="pagination">
+  {% if page.next.url %}
+    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+  {% endif %}
+
+  <a href="#" class="top">Top</a>
+</div>

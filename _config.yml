@@ -1,1 +1,25 @@
-theme: jekyll-theme-tactile
+remote_theme: chesterhow/tale
+
+author:
+  name: &name Donagh Horgan
+  url: &url https://donaghhorgan.github.io
+  email: me@donagh.io
+
+title: *name
+description: Notes on machine learning, data science and software engineering
+url: *url
+paginate: 5
+excerpt_separator: <!--more-->
+
+include:
+  - _pages
+
+exclude:
+  - _site
+  - .bundle
+  - .git
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - README.md
