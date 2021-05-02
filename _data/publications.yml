@@ -1,0 +1,78 @@
+
+2021:
+  - title: Adaptive inter-ranging network
+    author: James B. Hurley, Michael G. Cronin, Donagh S. Horgan and Graham M. Baitson
+    publication: US Patent 10,972,868
+    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,972,868.PN.&OS=PN/10,972,868&RS=PN/10,972,868
+
+  - title: Building access control system with spatial modeling
+    author: Donagh S. Horgan, Jan R. Holliday and Eamonn O'Toole
+    publication: US Patent 10,896,561
+    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,896,561.PN.&OS=PN/10,896,561&RS=PN/10,896,561
+
+2020:
+  - title: Building access control system with complex event processing
+    author: Donagh S. Horgan, Jan R. Holliday and Eamonn O'Toole
+    publication: US Patent 10,713,909
+    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=3&f=G&l=50&co1=AND&d=PTXT&s1=donagh&s2=horgan&OS=donagh+AND+horgan&RS=donagh+AND+horgan
+
+  - title: Access control system with lock defeat device detection
+    author: Donagh S. Horgan, Jan R. Holliday and Eamonn O'Toole
+    publication: US Patent 10,629,038
+    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,629,038.PN.&OS=PN/10,629,038&RS=PN/10,629,038
+
+  - title: Building access control system with complex event processing
+    author: Donagh S. Horgan, Jan R. Holliday and Eamonn O'Toole
+    publication: US Patent 10,565,838
+    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,565,838.PN.&OS=PN/10,565,838&RS=PN/10,565,838
+
+2019:
+  - title: Anomaly detection model selection and validity for time series data
+    author: Anthony T. Brew, Donagh S. Horgan, Ian Manning and Vinh Tuan Thai
+    publication: US Patent 10,373,070
+    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PALL&s1=10373070.PN.
+
+  - title: Adaptive inter-ranging network
+    author: James B. Hurley, Michael G. Cronin, Donagh S. Horgan and Graham M. Baitson
+    publication: US Patent 10,299,079
+    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,299,079.PN.&OS=PN/10,299,079&RS=PN/10,299,079
+
+2017:
+  - title: Generating problem signatures from snapshots of time series data
+    author: Anthony T. Brew, Donagh S. Horgan, Louise K. Nestor and Vinh Tuan Thai
+    publication: US Patent 9,632,859
+    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=9,632,859.PN.&OS=PN/9,632,859&RS=PN/9,632,859
+
+2014:
+  - title: Analysing energy detector diversity receivers for spectrum sensing
+    author: Donagh Horgan
+    publication: PhD thesis, University College Cork
+    link: /papers/analysing-energy-detector-diversity-receivers-for-spectrum-sensing
+
+2013:
+  - title: On the convergence of the chi square and noncentral chi square distributions to the normal distribution
+    author: Donagh Horgan and Colin C. Murphy
+    publication: IEEE Communication Letters
+    link: /papers/on-the-convergence-of-the-chi-square-and-noncentral-chi-square-distributions-to-the-normal-distribution
+
+  - title: Fast and accurate approximations for the analysis of energy detection in Nakagami-m channels
+    author: Donagh Horgan and Colin C. Murphy
+    publication: IEEE Communication Letters
+    link: /papers/fast-and-accurate-approximations-for-the-analysis-of-energy-detection-in-nakagami-m-channels
+
+2011:
+  - title: Performance limits of cooperative spectrum sensing in fading environments
+    author: Donagh Horgan and Colin C. Murphy
+    publication: 4th International Conference on Cognitive Radio and Advanced Spectrum Management (CogART)
+    link: /papers/performance-limits-of-cooperative-spectrum-sensing-in-fading-environments
+
+  - title: Implementation issues for optimized hard decision energy detector-based cooperative spectrum sensing
+    author: Donagh Horgan and Colin C. Murphy
+    publication: 4th International Conference on Cognitive Radio and Advanced Spectrum Management (CogART)
+    link: /papers/implementation-issues-for-optimized-hard-decision-energy-detector-based-cooperative-spectrum-sensing
+
+2010:
+  - title: Voting rule optimisation for double threshold energy detector-based cognitive radio networks
+    author: Donagh Horgan and Colin C. Murphy
+    publication: 4th International Conference on Signal Processing and Communication Systems (ICSPCS)
+    link: /papers/voting-rule-optimisation-for-double-threshold-energy-detector-based-cognitive-radio-networks/
