@@ -1,5 +1,7 @@
 # donagh.io
 
+[![GitHub Super-Linter](https://github.com/donaghhorgan/donaghhorgan.github.io/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 This repository contains the source for [https://donagh.io/](https://donagh.io/).
 
 ## Usage
@@ -22,4 +24,10 @@ Clean any unused gems:
 
 ```shell
 make clean
+```
+
+Run lint checks:
+
+```shell
+make test
 ```

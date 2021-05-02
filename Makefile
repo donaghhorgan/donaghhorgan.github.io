@@ -3,7 +3,7 @@ SHELL := bash
 .DEFAULT_GOAL := all
 
 .PHONY: all
-all: clean build serve
+all: clean build test serve
 
 .PHONY: clean
 clean:
@@ -17,3 +17,7 @@ build:
 .PHONY: serve
 serve:
 	bundle exec jekyll serve
+
+.PHONY: test
+test:
+	act -P ubuntu-latest=nektos/act-environments-ubuntu:18.04 -j lint

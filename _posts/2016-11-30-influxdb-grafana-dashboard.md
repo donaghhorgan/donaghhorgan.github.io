@@ -26,21 +26,20 @@ As InfluxDB and Grafana are both published as official Docker images, it seemed 
 
 The basic project setup looks like this:
 
-```
-.
-├── configuration.env
-├── docker-compose.yml
-├── influxdb
-│   ├── Dockerfile
-│   └── entrypoint.sh
-└── grafana
-    ├── Dockerfile
-    ├── entrypoint.sh
-    ├── datasources
-    │  └── default.json
-    └── dashboards
-       └── ...
-```
+    .
+    ├── configuration.env
+    ├── docker-compose.yml
+    ├── influxdb
+    │   ├── Dockerfile
+    │   └── entrypoint.sh
+    └── grafana
+        ├── Dockerfile
+        ├── entrypoint.sh
+        ├── datasources
+        │  └── default.json
+        └── dashboards
+           └── ...
+
 The files in the root directory define the service architecture (`docker-compose.yml`) and overall project configuration (`configuration.env`), while those in the `influxdb` and `grafana` subdirectories define the behaviour of the services themselves. The `grafana/datasources` directory holds a default JSON data source description (to connect to InfluxDB), although you can add others if you want to deploy them automatically on initialisation. The `grafana/dashboards` directory works the same way, although there aren't any defaults here because dashboards are generally application-specific.
 
 ## Configuration

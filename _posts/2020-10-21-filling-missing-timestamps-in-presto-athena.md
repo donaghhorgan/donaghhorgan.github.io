@@ -15,33 +15,29 @@ This week, I had to figure out how to insert missing timestamp values in a large
 
 First a simple example: say you have a table that stores products and their corresponding order dates and you want to count the number of distinct products sold per day. That is, the input data might look something like this:
 
-```
-|----------------------|
-| order_date | product |
-|----------------------|
-| 2020-01-05 | apple   |
-| 2020-01-05 | banana  |
-| 2020-01-10 | carrot  |
-| 2020-01-12 | daikon  |
-|----------------------|
-```
+    |----------------------|
+    | order_date | product |
+    |----------------------|
+    | 2020-01-05 | apple   |
+    | 2020-01-05 | banana  |
+    | 2020-01-10 | carrot  |
+    | 2020-01-12 | daikon  |
+    |----------------------|
 
 And you want the output to look like this:
 
-```
-|-------------------------|
-| order_date | n_products |
-|-------------------------|
-| 2020-01-05 | 2          |
-| 2020-01-06 | 0          |
-| 2020-01-07 | 0          |
-| 2020-01-08 | 0          |
-| 2020-01-09 | 0          |
-| 2020-01-10 | 1          |
-| 2020-01-11 | 0          |
-| 2020-01-12 | 1          |
-|-------------------------|
-```
+    |-------------------------|
+    | order_date | n_products |
+    |-------------------------|
+    | 2020-01-05 | 2          |
+    | 2020-01-06 | 0          |
+    | 2020-01-07 | 0          |
+    | 2020-01-08 | 0          |
+    | 2020-01-09 | 0          |
+    | 2020-01-10 | 1          |
+    | 2020-01-11 | 0          |
+    | 2020-01-12 | 1          |
+    |-------------------------|
 
 If we call the input data table `orders` , then we can produce the output above as follows:
 
@@ -69,41 +65,37 @@ The key idea is to use a subquery to figure out the start and end dates of the d
 
 Next, a more complex (and realistic) example: what if you also store customer IDs inside your table and you want to resample time series per customer rather than globally? That is, you have a table that looks a bit like this:
 
-```
-|------------------------------------|
-| customer_id | order_date | product |
-|------------------------------------|
-| 0           | 2020-01-05 | apple   |
-| 0           | 2020-01-05 | banana  |
-| 0           | 2020-01-10 | carrot  |
-| 0           | 2020-01-12 | daikon  |
-| 1           | 2020-01-10 | apple   |
-| 1           | 2020-01-15 | banana  |
-|------------------------------------|
-```
+    |------------------------------------|
+    | customer_id | order_date | product |
+    |------------------------------------|
+    | 0           | 2020-01-05 | apple   |
+    | 0           | 2020-01-05 | banana  |
+    | 0           | 2020-01-10 | carrot  |
+    | 0           | 2020-01-12 | daikon  |
+    | 1           | 2020-01-10 | apple   |
+    | 1           | 2020-01-15 | banana  |
+    |------------------------------------|
 
 And you want an output that looks like this:
 
-```
-|---------------------------------------|
-| customer_id | order_date | n_products |
-|---------------------------------------|
-| 0           | 2020-01-05 | 2          |
-| 0           | 2020-01-06 | 0          |
-| 0           | 2020-01-07 | 0          |
-| 0           | 2020-01-08 | 0          |
-| 0           | 2020-01-09 | 0          |
-| 0           | 2020-01-10 | 1          |
-| 0           | 2020-01-11 | 0          |
-| 0           | 2020-01-12 | 1          |
-| 1           | 2020-01-10 | 1          |
-| 1           | 2020-01-11 | 0          |
-| 1           | 2020-01-12 | 0          |
-| 1           | 2020-01-13 | 0          |
-| 1           | 2020-01-14 | 0          |
-| 1           | 2020-01-15 | 1          |
-|---------------------------------------|
-```
+    |---------------------------------------|
+    | customer_id | order_date | n_products |
+    |---------------------------------------|
+    | 0           | 2020-01-05 | 2          |
+    | 0           | 2020-01-06 | 0          |
+    | 0           | 2020-01-07 | 0          |
+    | 0           | 2020-01-08 | 0          |
+    | 0           | 2020-01-09 | 0          |
+    | 0           | 2020-01-10 | 1          |
+    | 0           | 2020-01-11 | 0          |
+    | 0           | 2020-01-12 | 1          |
+    | 1           | 2020-01-10 | 1          |
+    | 1           | 2020-01-11 | 0          |
+    | 1           | 2020-01-12 | 0          |
+    | 1           | 2020-01-13 | 0          |
+    | 1           | 2020-01-14 | 0          |
+    | 1           | 2020-01-15 | 1          |
+    |---------------------------------------|
 
 Again, calling the input data table `orders` , we can produce the output as follows:
 

@@ -8,9 +8,9 @@ tags:
 
 [Apache Airflow's documentation](https://airflow.apache.org/index.html) puts a heavy emphasis on the use of its UI client for configuring [DAGs](https://airflow.apache.org/concepts.html#dags). While the UI is nice to look at, it's a pretty clunky way to manage your pipeline configuration, particularly at deployment time. One alternative is to store your DAG configuration in YAML and use it to set the default configuration in the Airflow database when the DAG is first run. This is actually pretty easy using the standard API.
 
-To demonstrate, let's create a simple hello world DAG with an init file (` __init__.py`), a DAG definition file (`dag.py`) and a YAML configuration file (`config.yml`) specifying the default configuration options to use (note: the complete set of files can be found on my Github account [here](https://github.com/donaghhorgan/configuring-airflow-dags-with-yaml)). The structure of the project should look like this:
+To demonstrate, let's create a simple hello world DAG with an init file (`__init__.py`), a DAG definition file (`dag.py`) and a YAML configuration file (`config.yml`) specifying the default configuration options to use (note: the complete set of files can be found on my Github account [here](https://github.com/donaghhorgan/configuring-airflow-dags-with-yaml)). The structure of the project should look like this:
 
-```shell
+```console
 $ tree
 .
 ├── __init__.py
