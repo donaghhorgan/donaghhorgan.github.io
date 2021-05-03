@@ -32,16 +32,43 @@
     publication: US Patent 10,373,070
     link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PALL&s1=10373070.PN.
 
+  - title: Building a sentiment analyser for Twitter
+    author: Donagh Horgan
+    publication: RebelCon 2019
+    link: https://drive.google.com/open?id=1cHYA87-EcTEtgJ4aLMVfT3qljOq2LmQz
+
+  - title: Teaching Machines to Understand Emotions with Sentiment Analysis
+    author: Ben Linders and Donagh Horgan
+    publication: InfoQ
+    link: https://www.infoq.com/news/2019/06/machines-understand-emotions/
+
   - title: Adaptive inter-ranging network
     author: James B. Hurley, Michael G. Cronin, Donagh S. Horgan and Graham M. Baitson
     publication: US Patent 10,299,079
     link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,299,079.PN.&OS=PN/10,299,079&RS=PN/10,299,079
+
+2018:
+  - title: COMP9033 — Data Analytics (2018 Lecture Notes)
+    author: Donagh Horgan
+    publication: Munster Technological University
+    link: https://github.com/donaghhorgan/COMP9033/archive/2018.zip
 
 2017:
   - title: Generating problem signatures from snapshots of time series data
     author: Anthony T. Brew, Donagh S. Horgan, Louise K. Nestor and Vinh Tuan Thai
     publication: US Patent 9,632,859
     link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=9,632,859.PN.&OS=PN/9,632,859&RS=PN/9,632,859
+
+  - title: COMP9033 — Data analytics (2017 Lecture Notes)
+    author: Donagh Horgan
+    publication: Munster Technological University
+    link: https://github.com/donaghhorgan/COMP9033/archive/2017.zip
+
+2016:
+  - title: How to build an analytics dashboard in 150 lines of code
+    author: Donagh Horgan
+    publication: CorkDev.io Meetup, November 15th 2016
+    link: https://drive.google.com/file/d/1HgBl4cn9hjbI4NHfaUS3pM7nwJSsH-qc/view?usp=sharing
 
 2014:
   - title: Analysing energy detector diversity receivers for spectrum sensing
