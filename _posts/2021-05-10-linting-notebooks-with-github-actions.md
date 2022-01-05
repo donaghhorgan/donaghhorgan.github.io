@@ -37,7 +37,7 @@ jobs:
 
 Basically, you checkout your code, maybe run some custom tasks, and then lint your codebase.
 
-Now, Jupyter notebooks aren't supported by Super-Linter directly - but Python and markdown source files are. If we convert each notebook in our repo to corresponding Python and markdown equivalents using [`nbconvert`](https://nbconvert.readthedocs.io/en/latest/index.html) prior to the linter running, then the newly created files will be linted and any issues in our notebooks should be flagged. For instance, if there's a Python issue in a notebook, then the same Python issue will appear in the converted source file. The same goes for markdown errors. Also, because the conversion is done during the workflow run, we're not committing any extra files to our repo - the converted Python and markdown files only exist in the context of the workflow run and will be deleted on completion.
+Now, Jupyter notebooks aren't supported by Super-Linter directly - but Python and Markdown source files are. If we convert each notebook in our repository to corresponding Python and Markdown equivalents using [`nbconvert`](https://nbconvert.readthedocs.io/en/latest/index.html) prior to the linter running, then the newly created files will be linted and any issues in our notebooks should be flagged. For instance, if there's a Python issue in a notebook, then the same Python issue will appear in the converted source file. The same goes for Markdown errors. Also, because the conversion is done during the workflow run, we're not committing any extra files to our repository - the converted Python and Markdown files only exist in the context of the workflow run and will be deleted on completion.
 
 To do the conversion, just add two custom steps to the workflow as follows:
 
@@ -69,4 +69,4 @@ jobs:
 
 Markdown is excluded when converting to Python and vice-versa so that the converted files are minimal to the language being linted. This way, there's no risk that the conversion of one format will cause a linting error in the other.
 
-If you've got a Python or a markdown file with the same name as your notebook file and in the same directory, then you'll need to be a bit creative because `nbconvert` will overwrite the original if you use the code above directly - but shouldn't be too hard to modify this so that the converted files are placed in a subdirectory or are renamed to avoid overwrites.
+If you've got a Python or a Markdown file with the same name as your notebook file and in the same directory, then you'll need to be a bit creative because `nbconvert` will overwrite the original if you use the code above directly - but shouldn't be too hard to modify this so that the converted files are placed in a subdirectory or are renamed to avoid overwrites.

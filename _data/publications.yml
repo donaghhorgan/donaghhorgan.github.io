@@ -1,6 +1,10 @@
-
 2021:
-  - title:  Building alarm system with Bayesian event classification
+  - title: Systems and methods of occupant path prediction
+    author: Donagh S. Horgan, Michael T. Matthews and Eamonn O'Toole
+    publication: US Patent 11,188,038
+    link: https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PALL&s1=11188038.PN.
+
+  - title: Building alarm system with Bayesian event classification
     author: Donagh S. Horgan and Eamonn O'Toole
     publication: US Patent 11,100,788
     link: https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PALL&s1=11100788.PN.
@@ -13,28 +17,28 @@
   - title: Adaptive inter-ranging network
     author: James B. Hurley, Michael G. Cronin, Donagh S. Horgan and Graham M. Baitson
     publication: US Patent 10,972,868
-    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,972,868.PN.&OS=PN/10,972,868&RS=PN/10,972,868
+    link: https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PALL&s1=10972868.PN.
 
   - title: Building access control system with spatial modeling
     author: Donagh S. Horgan, Jan R. Holliday and Eamonn O'Toole
     publication: US Patent 10,896,561
-    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,896,561.PN.&OS=PN/10,896,561&RS=PN/10,896,561
+    link: https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PALL&s1=10896561.PN.
 
 2020:
   - title: Building access control system with complex event processing
     author: Donagh S. Horgan, Jan R. Holliday and Eamonn O'Toole
     publication: US Patent 10,713,909
-    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=3&f=G&l=50&co1=AND&d=PTXT&s1=donagh&s2=horgan&OS=donagh+AND+horgan&RS=donagh+AND+horgan
+    link: https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PALL&s1=10713909.PN.
 
   - title: Access control system with lock defeat device detection
     author: Donagh S. Horgan, Jan R. Holliday and Eamonn O'Toole
     publication: US Patent 10,629,038
-    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,629,038.PN.&OS=PN/10,629,038&RS=PN/10,629,038
+    link: https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PALL&s1=10629038.PN.
 
   - title: Building access control system with complex event processing
     author: Donagh S. Horgan, Jan R. Holliday and Eamonn O'Toole
     publication: US Patent 10,565,838
-    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,565,838.PN.&OS=PN/10,565,838&RS=PN/10,565,838
+    link: https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PALL&s1=10565838.PN.
 
 2019:
   - title: Anomaly detection model selection and validity for time series data
@@ -55,7 +59,7 @@
   - title: Adaptive inter-ranging network
     author: James B. Hurley, Michael G. Cronin, Donagh S. Horgan and Graham M. Baitson
     publication: US Patent 10,299,079
-    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,299,079.PN.&OS=PN/10,299,079&RS=PN/10,299,079
+    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PALL&s1=10299079.PN.
 
 2018:
   - title: COMP9033 — Data Analytics (2018 Lecture Notes)
@@ -67,7 +71,7 @@
   - title: Generating problem signatures from snapshots of time series data
     author: Anthony T. Brew, Donagh S. Horgan, Louise K. Nestor and Vinh Tuan Thai
     publication: US Patent 9,632,859
-    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=9,632,859.PN.&OS=PN/9,632,859&RS=PN/9,632,859
+    link: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PALL&s1=9632859.PN.
 
   - title: COMP9033 — Data analytics (2017 Lecture Notes)
     author: Donagh Horgan
