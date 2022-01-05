@@ -20,11 +20,11 @@ This isn't actually as daunting as it sounds. You can do it in three easy steps:
 
 # Rolling a custom cluster with flintrock
 
-[Flintrock](https://github.com/nchammas/flintrock) is a simple command line tool that allows you to orchestrate and administrate Spark clusters on EC2 with minimal configuration and hassle. Once you have a minimal configuration defined, spinning up a brand new cluster with tens of nodes takes less than five minutes.
+[Flintrock](https://github.com/nchammas/flintrock) is a simple command-line tool that allows you to orchestrate and administrate Spark clusters on EC2 with minimal configuration and hassle. Once you have a minimal configuration defined, spinning up a brand new cluster with tens of nodes takes less than five minutes.
 
 I won't go into deep detail about the flintrock setup (for that, see Heather Miller's excellent and very detailed post [here](https://heather.miller.am/blog/launching-a-spark-cluster-part-1.html)) but one thing to note is that it's important to create a custom security group for your cluster (that is, aside from the `flintrock` and `flintrock-*` groups that flintrock creates itself) so that you can add your SageMaker notebook instance to the same group later - otherwise, you'll end up with siloed resources that can't talk to one another. You might be tempted to just add your notebook to the `flintrock-*` security group, but this [can cause problems later if you try to terminate your cluster](https://github.com/nchammas/flintrock/issues/219).
 
-Once your cluster has been created, run the following script to figure out the private IP address of your cluster master node on the subnet where you'll add your SageMaker notebook instance to - you'll need this later in order to point PySpark at your cluster master.
+Once your cluster has been created, run the following script to figure out the private IP address of your cluster master on the subnet where you'll add your SageMaker notebook instance to - you'll need this later in order to point PySpark at your cluster master.
 
 ```shell
 # Get the public DNS of your cluster master
